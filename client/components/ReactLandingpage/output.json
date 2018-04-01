@@ -1,0 +1,478 @@
+{/* Get the movie details and its id and image url with the help of this path */}
+
+ path:https://api.themoviedb.org/3/search/movie?include_adult=false&page=1&language=en-US&api_key=2025bf96d94b5254e631df0431073cdb&query=mersal
+
+ output json:
+{
+    "page": 1,
+    "total_results": 1,
+    "total_pages": 1,
+    "results": [
+        {
+            "vote_count": 12,
+            "id": 456287,
+            "video": false,
+            "vote_average": 8.8,
+            "title": "Mersal",
+            "popularity": 5.00026,
+            "poster_path": "/65Q1wpRPZ5E3UVUv2V5JBbJQCcj.jpg",
+            "original_language": "ta",
+            "original_title": "மெர்சல்",
+            "genre_ids": [
+                53,
+                28,
+                18
+            ],
+            "backdrop_path": "/zHodxiTrPTFaruQtsm7FgYXamEK.jpg",
+            "adult": false,
+            "overview": "A few individuals in the medical profession are murdered or kidnapped, and the cop investigating the case suspects a doctor and arrests him. But is he the one who is behind these crimes? And why are they being committed?",
+            "release_date": "2017-10-18"
+        }
+    ]
+
+   {/*  Get the artists details with this url */}
+
+   path:https://api.themoviedb.org/3/movie/456287/credits?include_adult=false&page=1&language=en-US&api_key=2025bf96d94b5254e631df0431073cdb
+
+   Output json:
+
+   {
+    "id": 456287,
+    "cast": [
+        {
+            "cast_id": 0,
+            "character": "Thalapathy/Maaran/Vetri",
+            "credit_id": "590dbbe6c3a368651900ced0",
+            "gender": 2,
+            "id": 91547,
+            "name": "Vijay",
+            "order": 1,
+            "profile_path": "/zlASmkfPUGNl4IAKyJQHg7y2uBy.jpg"
+        },
+        {
+            "cast_id": 1,
+            "character": "Pallavi",
+            "credit_id": "590dbbefc3a36864a700db4d",
+            "gender": 1,
+            "id": 113809,
+            "name": "Kajal Agarwal",
+            "order": 2,
+            "profile_path": "/bXLXNpmaachLrWW1SrQZITt9e4N.jpg"
+        },
+        {
+            "cast_id": 2,
+            "character": "Tara",
+            "credit_id": "590dbbfe9251414e8500e2d7",
+            "gender": 1,
+            "id": 225312,
+            "name": "Samantha Akkineni",
+            "order": 3,
+            "profile_path": "/2tQHkYrMZrED9Bp7p5dyDs4toDS.jpg"
+        },
+        {
+            "cast_id": 3,
+            "character": "Aishwarya Vetrimaaran",
+            "credit_id": "590dbc0a9251414ead00da42",
+            "gender": 1,
+            "id": 225388,
+            "name": "Nithya Menen",
+            "order": 4,
+            "profile_path": "/gh3OtxFHwTvVGTOvLhJ31eMreey.jpg"
+        },
+        {
+            "cast_id": 4,
+            "character": "Daniel Arockiaraj",
+            "credit_id": "590dbc219251414e8d00dcd0",
+            "gender": 2,
+            "id": 292250,
+            "name": "S. J. Surya",
+            "order": 5,
+            "profile_path": "/pda94JsxvURmEhutOhcLa6feZmb.jpg"
+        },
+        {
+            "cast_id": 5,
+            "character": "Rathnavel",
+            "credit_id": "590dbc28c3a36864d400e587",
+            "gender": 2,
+            "id": 581895,
+            "name": "Sathyaraj",
+            "order": 6,
+            "profile_path": "/7iItgmnMgZ9dpalDqdbiu9MUsZj.jpg"
+        },
+        {
+            "cast_id": 6,
+            "character": "Vadivu",
+            "credit_id": "590dbc2f9251414e9200e31b",
+            "gender": 2,
+            "id": 91549,
+            "name": "Vadivelu",
+            "order": 7,
+            "profile_path": "/fD38IPlzEvbmxEAhvGnrwVHKuhQ.jpg"
+        },
+        {
+            "cast_id": 17,
+            "character": "Maniyan",
+            "credit_id": "594a7e4ec3a3686eba00031a",
+            "gender": 2,
+            "id": 478546,
+            "name": "Sathyan Sivakumar",
+            "order": 8,
+            "profile_path": "/5za6Jd36AFOF9mD1PEgZOAu4TH5.jpg"
+        },
+        {
+            "cast_id": 18,
+            "character": "Sarala",
+            "credit_id": "594a7e91c3a36861cb00fad5",
+            "gender": 1,
+            "id": 435722,
+            "name": "Kovai Sarala",
+            "order": 9,
+            "profile_path": "/51WYLo5ZOxULTMgbz3VdfA2KG0z.jpg"
+        },
+        {
+            "cast_id": 19,
+            "character": "Dr. Arjun Zachariah",
+            "credit_id": "5971df0c925141130100cb44",
+            "gender": 2,
+            "id": 1188530,
+            "name": "Hareesh Peradi",
+            "order": 10,
+            "profile_path": "/s6Et5mOEicOPGc3mk4vZLiDQVM6.jpg"
+        },
+        {
+            "cast_id": 20,
+            "character": "Tara's Friend",
+            "credit_id": "5991a7fb925141435a00fc52",
+            "gender": 1,
+            "id": 1163172,
+            "name": "Misha Ghoshal",
+            "order": 11,
+            "profile_path": "/1HI3NMCCiWUxnlNwPP2K2em3PWB.jpg"
+        },
+        {
+            "cast_id": 21,
+            "character": "Nolan",
+            "credit_id": "5991a802c3a368069000ff41",
+            "gender": 2,
+            "id": 1540764,
+            "name": "Yogi Babu",
+            "order": 12,
+            "profile_path": "/1TgzpaIukf8zpcrs4rU0b40B8Dc.jpg"
+        },
+        {
+            "cast_id": 22,
+            "character": "Health Minister",
+            "credit_id": "5991a81e925141435a00fc71",
+            "gender": 2,
+            "id": 1064131,
+            "name": "Rajendran",
+            "order": 13,
+            "profile_path": "/jgIYDgHQVg1ZPbpK1P2r51W3G7M.jpg"
+        },
+        {
+            "cast_id": 36,
+            "character": "Auto Driver",
+            "credit_id": "59e9e9569251410c0e0115ae",
+            "gender": 2,
+            "id": 1306567,
+            "name": "Kaali Venkat",
+            "order": 14,
+            "profile_path": "/nmvGCwpmbdNBL1bEvWMyoewbero.jpg"
+        },
+        {
+            "cast_id": 37,
+            "character": "Nurse",
+            "credit_id": "59e9e967c3a3687f940111e7",
+            "gender": 1,
+            "id": 237689,
+            "name": "Devadarshini",
+            "order": 15,
+            "profile_path": "/i36j7M5PTJr1emynGsDDhTfuPtA.jpg"
+        },
+        {
+            "cast_id": 38,
+            "character": "Nurse",
+            "credit_id": "59e9e971c3a3687f940111fa",
+            "gender": 0,
+            "id": 1068827,
+            "name": "Surekha Vani",
+            "order": 16,
+            "profile_path": "/bqDsLZ0ysImn4466eD3MfiWmcnw.jpg"
+        },
+        {
+            "cast_id": 39,
+            "character": "Salim Ghosh",
+            "credit_id": "59e9e97fc3a3687f15011c5c",
+            "gender": 2,
+            "id": 584848,
+            "name": "Sangili Murugan",
+            "order": 17,
+            "profile_path": "/2EjvczdnusvqRTE03WDuKYjQAV5.jpg"
+        },
+        {
+            "cast_id": 40,
+            "character": "Prisoner",
+            "credit_id": "59e9e9a3c3a3687fc6010c77",
+            "gender": 2,
+            "id": 1489947,
+            "name": "Boxer Dheena",
+            "order": 18,
+            "profile_path": "/1FHNEMdQDeppfUSSq6w64TdIQaq.jpg"
+        },
+        {
+            "cast_id": 47,
+            "character": "Kaasi",
+            "credit_id": "5a0ff95492514138f60260df",
+            "gender": 2,
+            "id": 1416495,
+            "name": "M.Kamaraj",
+            "order": 19,
+            "profile_path": null
+        }
+    ],
+    "crew": [
+        {
+            "credit_id": "590dbc46c3a36864c600dd9a",
+            "department": "Directing",
+            "gender": 2,
+            "id": 1209903,
+            "job": "Director",
+            "name": "Atlee",
+            "profile_path": "/4943Cy9I1l3gWFsUdL4EoMykEly.jpg"
+        },
+        {
+            "credit_id": "590dbc61c3a36864fc00de0c",
+            "department": "Writing",
+            "gender": 0,
+            "id": 1811528,
+            "job": "Dialogue",
+            "name": "Ramana Girivasan",
+            "profile_path": null
+        },
+        {
+            "credit_id": "590dbc73c3a36864a700db9a",
+            "department": "Writing",
+            "gender": 0,
+            "id": 1811528,
+            "job": "Screenplay",
+            "name": "Ramana Girivasan",
+            "profile_path": null
+        },
+        {
+            "credit_id": "590dbc8d9251414edb00e2f5",
+            "department": "Writing",
+            "gender": 0,
+            "id": 147022,
+            "job": "Story",
+            "name": "Vijayendra Prasad",
+            "profile_path": null
+        },
+        {
+            "credit_id": "590dbc9ac3a368651900cf56",
+            "department": "Writing",
+            "gender": 0,
+            "id": 147022,
+            "job": "Screenplay",
+            "name": "Vijayendra Prasad",
+            "profile_path": null
+        },
+        {
+            "credit_id": "590dbca89251414e9200e378",
+            "department": "Writing",
+            "gender": 2,
+            "id": 1209903,
+            "job": "Dialogue",
+            "name": "Atlee",
+            "profile_path": "/4943Cy9I1l3gWFsUdL4EoMykEly.jpg"
+        },
+        {
+            "credit_id": "590dbcc99251414e8000e563",
+            "department": "Sound",
+            "gender": 2,
+            "id": 5288,
+            "job": "Original Music Composer",
+            "name": "A. R. Rahman",
+            "profile_path": "/vRkSrUAI2qyMMtpAAggAcxBJjPC.jpg"
+        },
+        {
+            "credit_id": "590dbd41c3a368646b00ee25",
+            "department": "Camera",
+            "gender": 0,
+            "id": 1811530,
+            "job": "Director of Photography",
+            "name": "G. K. Vishnu",
+            "profile_path": null
+        },
+        {
+            "credit_id": "590dbd5c9251414edb00e39a",
+            "department": "Editing",
+            "gender": 2,
+            "id": 1209905,
+            "job": "Editor",
+            "name": "Antony L. Ruben",
+            "profile_path": "/wiGD0WjOhkzqoeSaPxdgni15D5V.jpg"
+        },
+        {
+            "credit_id": "59999a1e9251411e1e02d179",
+            "department": "Directing",
+            "gender": 0,
+            "id": 1873179,
+            "job": "Co-Director",
+            "name": "T K Madhan Prasad",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59999a6b925141418e021ac1",
+            "department": "Production",
+            "gender": 2,
+            "id": 1209903,
+            "job": "Producer",
+            "name": "Atlee",
+            "profile_path": "/4943Cy9I1l3gWFsUdL4EoMykEly.jpg"
+        },
+        {
+            "credit_id": "59999a75925141040f0015d2",
+            "department": "Production",
+            "gender": 0,
+            "id": 1871580,
+            "job": "Producer",
+            "name": "Hema Rukmani",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59999a89c3a3685c75001587",
+            "department": "Production",
+            "gender": 0,
+            "id": 1337185,
+            "job": "Executive Producer",
+            "name": "H Murali",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59999af0c3a3686d67012337",
+            "department": "Sound",
+            "gender": 0,
+            "id": 1873191,
+            "job": "Sound Designer",
+            "name": "R Udhayakumar",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59999afac3a3680f4e01ebab",
+            "department": "Sound",
+            "gender": 0,
+            "id": 1667230,
+            "job": "Sound Designer",
+            "name": "Tapas Nayak",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59999b059251410ec802acf6",
+            "department": "Art",
+            "gender": 0,
+            "id": 1666865,
+            "job": "Art Direction",
+            "name": "Muthuraj",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59999b19925141260102af41",
+            "department": "Crew",
+            "gender": 0,
+            "id": 1671023,
+            "job": "Choreographer",
+            "name": "Sheriff",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59999b34925141418e021bc5",
+            "department": "Crew",
+            "gender": 0,
+            "id": 1684194,
+            "job": "Choreographer",
+            "name": "Prem Rakshith",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59999b3e925141418e021bd3",
+            "department": "Costume & Make-Up",
+            "gender": 0,
+            "id": 1873193,
+            "job": "Costume Design",
+            "name": "Neeraja Kona",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59999b4ac3a3686dce013237",
+            "department": "Costume & Make-Up",
+            "gender": 0,
+            "id": 1682889,
+            "job": "Costume Design",
+            "name": "Pallavi Singh",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59999b5b9251410ec802ad66",
+            "department": "Crew",
+            "gender": 2,
+            "id": 1663251,
+            "job": "Stunt Coordinator",
+            "name": "ANL Arasu",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59e9e9ef9251410c620113f7",
+            "department": "Directing",
+            "gender": 0,
+            "id": 1326971,
+            "job": "Assistant Director",
+            "name": "Shilpi Kiran",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59e9ea059251410c0e0116c3",
+            "department": "Production",
+            "gender": 0,
+            "id": 1705321,
+            "job": "Line Producer",
+            "name": "Natarajan Ramji",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59e9ea0e9251410c670108d4",
+            "department": "Production",
+            "gender": 0,
+            "id": 1640306,
+            "job": "Line Producer",
+            "name": "Marcin Andruchow",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59e9ea449251412cf500f672",
+            "department": "Crew",
+            "gender": 0,
+            "id": 1873191,
+            "job": "Production Controller",
+            "name": "R Udhayakumar",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59e9ea69c3a3687f15011dba",
+            "department": "Camera",
+            "gender": 0,
+            "id": 1648170,
+            "job": "Still Photographer",
+            "name": "D Maneksha",
+            "profile_path": null
+        },
+        {
+            "credit_id": "59e9ea7cc3a36875e2005724",
+            "department": "Art",
+            "gender": 0,
+            "id": 1671522,
+            "job": "Production Design",
+            "name": "Gopi Prasannaa",
+            "profile_path": null
+        }
+    ]
+}
